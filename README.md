@@ -28,14 +28,6 @@ This project documents the creation of a home Security Operations Centre (SOC) l
 - Sysmon installed and generating process creation telemetry.
 - Wazuh confirmed to ingest Sysmon events from the Windows endpoint.
 
-## Detection Scenarios
-
-| Scenario | Status | Description |
-|---|---|---|
-| Local Group Discovery via net.exe | In Progress | Detecting account/group discovery commands using Sysmon and Wazuh |
-| Suspicious PowerShell Execution | Planned | Detecting suspicious PowerShell flags and command execution |
-| Network Reconnaissance | Planned | Detecting scanning activity from a Kali Linux attacker VM |
-
 ## Disclaimer
 
 This lab is for educational and defensive security purposes only. All testing is performed in an isolated virtual environment.
