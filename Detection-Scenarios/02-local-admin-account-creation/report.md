@@ -93,13 +93,9 @@ However, this activity is not automatically malicious. It should be investigated
 
 ## Evidence
 
-Screenshot:
+The screenshot below shows Wazuh alerts generated after the `backupadmin` account was created and added to the local Administrators group.
 
-```text
-screenshots/01-backupadmin-added-to-administrators.png
-```
-
-The screenshot should show the Wazuh event related to `backupadmin` being created or added to the local Administrators group.
+![Backupadmin account creation and administrator group event](01-backupadmin-added-to-administrators.png)
 
 ## Cleanup
 
